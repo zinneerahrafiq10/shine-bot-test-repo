@@ -13,7 +13,7 @@ app.post('/api/click', (req, res) => {
 
 app.get('/api/greet', (req, res) => {
   res.json({ message: 'Hello from the backend!' });
-});
+}
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
